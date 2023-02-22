@@ -1,6 +1,6 @@
-# Project Name
+# Product Landing Webpage 
 
-> One paragraph statement about the project.
+> A product landing webpage built with HTML and CSS used to market a product of your choice 
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,13 +8,22 @@ Additional description of the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- html
+- h2
+- div
+- form ,input
+- nav ,ul ,li
+- section
+- iframe 
+- span 
+- footer
+- CSS 
+- universal selector 
+- media query
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]https://17-fcc-product-landing-page.netlify.app)
 
 ### Development (Running locally)
 
