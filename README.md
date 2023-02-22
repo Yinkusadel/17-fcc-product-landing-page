@@ -1,6 +1,6 @@
-# Product Landing Webpage 
+# Product Landing Webpage
 
-> A product landing webpage built with HTML and CSS used to market a product of your choice 
+> A product landing webpage built with HTML and CSS used to market a product of your choice
 
 ![screenshot](./app_screenshot.png)
 
@@ -14,11 +14,11 @@ Additional description of the project and its features.
 - form ,input
 - nav ,ul ,li
 - section
-- iframe 
-- span 
+- iframe
+- span
 - footer
-- CSS 
-- universal selector 
+- CSS
+- universal selector
 - media query
 
 ## Live Demo
