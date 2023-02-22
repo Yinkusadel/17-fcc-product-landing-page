@@ -147,32 +147,50 @@ nav > ul {
   background-color: #f1c40f;
 }
 
-#hero input[type='submit']:hover {
-    background-color: orange;
-    transition: background-color 1s;
-  }
+#hero input[type="submit"]:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
 
-  @media (max-width: 650px) {
-    #hero {
-      margin-top: 120px;
-    }
+@media (max-width: 650px) {
+  #hero {
+    margin-top: 120px;
   }
+}
 
-  #features {
-    margin-top: 30px;
-  }
+#features {
+  margin-top: 30px;
+}
 
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+
+@media (max-width: 550px) {
   #features .icon {
+    display: none;
+  }
+}
+
+#features .desc {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     height: 125px;
-    width: 20vw;
-    color: darkorange;
+    width: 80vw;
+    padding: 5px;
   }
   
   @media (max-width: 550px) {
-    #features .icon {
-      display: none;
+    #features .desc {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
     }
   }
