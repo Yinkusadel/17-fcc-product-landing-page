@@ -161,3 +161,18 @@ nav > ul {
   #features {
     margin-top: 30px;
   }
+
+  #features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+  
+  @media (max-width: 550px) {
+    #features .icon {
+      display: none;
+    }
+  }
