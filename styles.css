@@ -127,6 +127,10 @@ nav > ul {
   margin-top: 50px;
 }
 
+.product > h2 {
+  margin-top: 15px;
+}
+
 #hero > h2 {
   margin-bottom: 20px;
   word-wrap: break-word;
@@ -239,38 +243,58 @@ nav > ul {
   font-weight: 700;
 }
 
-.product > h2 {
-    margin-top: 15px;
-  }
-  
-  .product > ol {
-    margin: 15px 0;
-  }
-  
-  .product > ol > li {
-    padding: 5px 0;
-  }
-  
-  .product > button {
-    border: 0;
-    margin: 15px 0;
-    background-color: #f1c40f;
-    font-weight: 400;
-  }
-  
-  .product > button:hover {
-    background-color: orange;
-    transition: background-color 1s;
+.product > ol {
+  margin: 15px 0;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
   }
 
-  @media (max-width: 800px) {
-    #pricing {
-      flex-direction: column;
-    }
-    .product {
-      max-width: 300px;
-      width: 100%;
-      margin: 0 auto;
-      margin-bottom: 10px;
-    }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
