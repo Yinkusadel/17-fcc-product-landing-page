@@ -194,3 +194,9 @@ nav > ul {
       height: 150px;
     }
   }
+
+  @media (max-width: 650px) {
+    #features {
+      margin-top: 0;
+    }
+  }
