@@ -151,3 +151,9 @@ nav > ul {
     background-color: orange;
     transition: background-color 1s;
   }
+
+  @media (max-width: 650px) {
+    #hero {
+      margin-top: 120px;
+    }
+  }
