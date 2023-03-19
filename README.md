@@ -8,18 +8,25 @@ Additional description of the project and its features.
 
 ## Built With
 
-- html
-- h2
-- div
-- form ,input
-- nav ,ul ,li
-- section
-- iframe
-- span
-- footer
-- CSS
-- universal selector
-- media query
+- ### HTML5 elements
+  - **Heading element**
+    `h2`
+  - **Block element**
+    `div` `p` `footer`
+  - **Inline element**
+    `span` `iframe`
+  - **Form element like**
+    `form` `input`
+- ### CSS properties
+  - CSS media query for page responsiveness using `@media` rule,
+  - CSS positioning `relative`,
+  - CSS background for page aesthetic using `background-color`
+  - CSS selectors `class selector` `id selector` `universal selector` `child selector`
+- ### Linters
+  - [prettier](prettier),
+  - [stylelint](stylelint).
+
+### GitHub Action
 
 ## Live Demo
 
